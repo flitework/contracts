@@ -1,0 +1,19 @@
+{
+    "name": "flitework/contracts",
+    "description": "Common interfaces",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flitework\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
