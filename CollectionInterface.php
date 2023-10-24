@@ -34,4 +34,19 @@ interface CollectionInterface extends \Countable, \IteratorAggregate
      * Removes all items from collection
      */
     public function clear();
+    
+    /**
+     * Get item from collection
+     * 
+     * @param string $id    Element to get
+     */
+    public function get(string $id);
+    
+    /**
+     * Check item is in collection
+     * 
+     * @param string $id    Element being checked
+     * @return bool         Check result
+     */
+    public function has(string $id): bool;
 }
